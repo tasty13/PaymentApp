@@ -23,6 +23,11 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             setMenuList();
+            this.Width = 600;
+            this.Height = 300;
+            /*this.BackColor = Color.FromArgb(255, 255, 155, 0);*/
+            this.MaximizeBox = false;
+            this.MinimizeBox = true;
         }
 
         private void setMenuList()
@@ -127,7 +132,7 @@ namespace WindowsFormsApp1
         {
             CalculateTotal();
             lBPickedMenu.Items.Clear();
-
+            btnPayInfo.Text = "결제 전입니다.";
             btnAdd.Enabled = true;
             btnRemove.Enabled = true;
             btnPay.Enabled = true;
