@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp2.Model
+namespace PaymentApp2.Model
 {
     public class Menu
     {

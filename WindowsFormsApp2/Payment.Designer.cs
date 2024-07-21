@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp2
+﻿namespace PaymentApp2
 {
     partial class Payment
     {

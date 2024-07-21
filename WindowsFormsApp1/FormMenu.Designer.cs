@@ -42,17 +42,19 @@
             // lbTitle
             // 
             this.lbTitle.AutoSize = true;
-            this.lbTitle.Location = new System.Drawing.Point(12, 18);
+            this.lbTitle.Location = new System.Drawing.Point(17, 27);
+            this.lbTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTitle.Name = "lbTitle";
-            this.lbTitle.Size = new System.Drawing.Size(57, 12);
+            this.lbTitle.Size = new System.Drawing.Size(86, 18);
             this.lbTitle.TabIndex = 0;
             this.lbTitle.Text = "상품 목록";
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(154, 73);
+            this.btnAdd.Location = new System.Drawing.Point(220, 110);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(107, 34);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "선택 추가";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -60,9 +62,10 @@
             // 
             // btnRemove
             // 
-            this.btnRemove.Location = new System.Drawing.Point(154, 102);
+            this.btnRemove.Location = new System.Drawing.Point(220, 153);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(75, 23);
+            this.btnRemove.Size = new System.Drawing.Size(107, 34);
             this.btnRemove.TabIndex = 4;
             this.btnRemove.Text = "선택 제거";
             this.btnRemove.UseVisualStyleBackColor = true;
@@ -71,17 +74,19 @@
             // btnPayInfo
             // 
             this.btnPayInfo.AutoSize = true;
-            this.btnPayInfo.Location = new System.Drawing.Point(480, 73);
+            this.btnPayInfo.Location = new System.Drawing.Point(686, 110);
+            this.btnPayInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.btnPayInfo.Name = "btnPayInfo";
-            this.btnPayInfo.Size = new System.Drawing.Size(85, 12);
+            this.btnPayInfo.Size = new System.Drawing.Size(128, 18);
             this.btnPayInfo.TabIndex = 7;
             this.btnPayInfo.Text = "결제 전입니다.";
             // 
             // btnPay
             // 
-            this.btnPay.Location = new System.Drawing.Point(482, 88);
+            this.btnPay.Location = new System.Drawing.Point(689, 132);
+            this.btnPay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPay.Name = "btnPay";
-            this.btnPay.Size = new System.Drawing.Size(75, 23);
+            this.btnPay.Size = new System.Drawing.Size(107, 34);
             this.btnPay.TabIndex = 8;
             this.btnPay.Text = "결제하기";
             this.btnPay.UseVisualStyleBackColor = true;
@@ -90,17 +95,19 @@
             // lblTotalPrice
             // 
             this.lblTotalPrice.AutoSize = true;
-            this.lblTotalPrice.Location = new System.Drawing.Point(233, 190);
+            this.lblTotalPrice.Location = new System.Drawing.Point(333, 285);
+            this.lblTotalPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTotalPrice.Name = "lblTotalPrice";
-            this.lblTotalPrice.Size = new System.Drawing.Size(87, 12);
+            this.lblTotalPrice.Size = new System.Drawing.Size(132, 18);
             this.lblTotalPrice.TabIndex = 9;
             this.lblTotalPrice.Text = "총 결제 금액: 0";
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(482, 147);
+            this.btnReset.Location = new System.Drawing.Point(689, 220);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.Size = new System.Drawing.Size(107, 34);
             this.btnReset.TabIndex = 10;
             this.btnReset.Text = "처음으로";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -109,26 +116,28 @@
             // lBMenuList
             // 
             this.lBMenuList.FormattingEnabled = true;
-            this.lBMenuList.ItemHeight = 12;
-            this.lBMenuList.Location = new System.Drawing.Point(17, 39);
+            this.lBMenuList.ItemHeight = 18;
+            this.lBMenuList.Location = new System.Drawing.Point(24, 58);
+            this.lBMenuList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lBMenuList.Name = "lBMenuList";
-            this.lBMenuList.Size = new System.Drawing.Size(131, 148);
+            this.lBMenuList.Size = new System.Drawing.Size(185, 220);
             this.lBMenuList.TabIndex = 11;
             // 
             // lBPickedMenu
             // 
             this.lBPickedMenu.FormattingEnabled = true;
-            this.lBPickedMenu.ItemHeight = 12;
-            this.lBPickedMenu.Location = new System.Drawing.Point(235, 39);
+            this.lBPickedMenu.ItemHeight = 18;
+            this.lBPickedMenu.Location = new System.Drawing.Point(336, 58);
+            this.lBPickedMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lBPickedMenu.Name = "lBPickedMenu";
-            this.lBPickedMenu.Size = new System.Drawing.Size(137, 148);
+            this.lBPickedMenu.Size = new System.Drawing.Size(194, 220);
             this.lBPickedMenu.TabIndex = 12;
             // 
             // FormMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1143, 675);
             this.Controls.Add(this.lBPickedMenu);
             this.Controls.Add(this.lBMenuList);
             this.Controls.Add(this.btnReset);
@@ -138,6 +147,7 @@
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lbTitle);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormMenu";
             this.Text = "Menu";
             this.ResumeLayout(false);
